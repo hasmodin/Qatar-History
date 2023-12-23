@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-color: #891B00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.navbar {
+
+    height: 5rem;
+    background-color: #A47963;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: -2rem;
+}
+
+.navbar-menu ul {
+    display: flex;
+    
+
+}
+
+li  {
+    list-style-type: none;
+    margin-right: -1rem;
+    
+}
+a {
+    text-decoration: none;
+    margin: 1rem;
+    
+}
+ 
+.button-content-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-container {
+    max-height: 80vh;
+    max-width: 80%;
+    background-color: white;
+    padding: 4rem;
+    border: .5rem solie black;
+    border-radius: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 4rem;
+    font-weight: lighter;
+}
+
+.emp-button {
+   background-color: #27213C;
+   width: 42%;
+   color: white;
+   border: none;
+   outline: none;
+   padding: 1rem;
+   margin: 1rem;
+   border-radius: 1rem;
+   font-weight: 700;
+   cursor: pointer;
+   font-size: 1.5rem;
+}
+
+.emp-button:hover {
+    background-color: #A6A57A;
+}
+
+footer {
+    height: 5rem;
+    width: 100%;
+    background-color: #A47963;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    line-height: 5rem;
+}
