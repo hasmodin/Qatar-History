@@ -93,7 +93,7 @@ h1 {
 }
 .form-content {
     background-color: white;
-    height: 400px;
+    height: 600px;
     width: 600px;
     text-align: center;
     border-radius: 2rem;
@@ -206,7 +206,45 @@ input:hover {
     padding: 3rem;
 }
 
+/* annual leave page css */
 
+.leave-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leave-content {
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.leave-content input {
+    outline: none;
+    padding: .90rem;
+    margin: .80rem;
+    height: 40px;
+    width: 90%;
+    border-radius: .5rem;
+}
+
+.leave-option {
+    outline: none;
+    height: 40px;
+    width: 90%;
+    border-radius: .5rem;
+    padding-left: .5rem;
+    margin-top: .5rem;
+}
+.leave-option:hover {
+    background-color: #A6A5;
+}
 
 footer {
     height: 5rem;
