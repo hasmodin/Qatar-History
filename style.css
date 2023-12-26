@@ -137,7 +137,7 @@ input:hover {
    padding: 1rem;
    margin: 1rem;
    border-radius: 1rem;
-   font-weight: 700;
+   font-weight: 500;
    cursor: pointer;
    font-size: 1.5rem;
 }
@@ -181,7 +181,7 @@ input:hover {
     padding: 1rem;
     margin: 1rem;
     border-radius: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     cursor: pointer;
     font-size: 1.5rem;
 }
@@ -222,6 +222,7 @@ input:hover {
     border-radius: 1rem;
     text-align: center;
     padding: 1rem;
+    
 
 }
 
@@ -243,7 +244,7 @@ input:hover {
     margin-top: .5rem;
 }
 .leave-option:hover {
-    background-color: #A6A5;
+    background-color: #A6A57A;
 }
 
 footer {
